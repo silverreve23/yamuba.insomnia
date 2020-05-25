@@ -1,4 +1,4 @@
-_id: req_5203f9bface14f40a436b5d676b5fede
+_id: req_4e3a424e587049e0a4c0298c485306e9
 authentication: {}
 body:
   mimeType: application/x-www-form-urlencoded
@@ -6,8 +6,8 @@ body:
     - description: ""
       id: pair_18cdf75877724898a7b99f8a502cb716
       name: connectID
-      value: "12"
-created: 1589364867114
+      value: "13"
+created: 1590396044239
 description: ""
 headers:
   - disabled: false
@@ -18,12 +18,12 @@ headers:
     name: Content-Type
     value: application/x-www-form-urlencoded
 isPrivate: false
-metaSortKey: -1589292099713
+metaSortKey: -1589292099888
 method: POST
-modified: 1590154234056
-name: add connect
+modified: 1590397881258
+name: add connecting
 parameters: []
-parentId: fld_0535021ac0cf44569fa01ea37e42f4a9
+parentId: fld_e0ff51cded2648bebb943ff8d2820446
 settingDisableRenderRequestBody: false
 settingEncodeUrl: true
 settingFollowRedirects: global
@@ -31,4 +31,4 @@ settingRebuildPath: true
 settingSendCookies: true
 settingStoreCookies: true
 type: Request
-url: "{{ api  }}{{ url_connects }}"
+url: "{{ api  }}{{ url_connecting }}"

@@ -18,12 +18,12 @@ headers:
     name: Authorization
     value: "{{ apikey  }}"
 isPrivate: false
-metaSortKey: -1589292099788
+metaSortKey: -1589292099694.25
 method: PUT
-modified: 1590152410255
-name: set status
+modified: 1590399307333
+name: set status approved
 parameters: []
-parentId: fld_e0ff51cded2648bebb943ff8d2820446
+parentId: fld_0535021ac0cf44569fa01ea37e42f4a9
 settingDisableRenderRequestBody: false
 settingEncodeUrl: true
 settingFollowRedirects: global
@@ -31,4 +31,4 @@ settingRebuildPath: true
 settingSendCookies: true
 settingStoreCookies: true
 type: Request
-url: "{{ api  }}{{ url_connecting }}/{{ connectID  }}"
+url: "{{ api  }}{{ url_connects }}/96"

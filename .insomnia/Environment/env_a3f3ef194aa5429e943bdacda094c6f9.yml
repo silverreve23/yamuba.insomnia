@@ -11,7 +11,9 @@ data:
   order_lastname: 2
   profileID: 13
   status_approve: 1
+  status_blocked: 2
   status_pending: 0
+  status_spam: 3
   url_connect_group: /connects/group
   url_connecting: /connecting
   url_connects: /connects
@@ -25,14 +27,16 @@ dataPropertyOrder:
     - friendID
     - groupID
     - profileID
-    - status_approve
     - status_pending
+    - status_approve
+    - status_blocked
+    - status_spam
     - order_firstname
     - order_lastname
     - order_datetime
 isPrivate: false
 metaSortKey: 1589449426178
-modified: 1590080129820
+modified: 1590403634307
 name: Connects
 parentId: env_7857753510ebbd3169da5468bc7560699185d93f
 type: Environment

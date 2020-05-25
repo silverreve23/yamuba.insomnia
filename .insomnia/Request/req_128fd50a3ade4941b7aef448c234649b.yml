@@ -1,22 +1,27 @@
-_id: req_ae768955a7df47a497ac09c1415e7de2
+_id: req_128fd50a3ade4941b7aef448c234649b
 authentication: {}
 body:
   mimeType: application/x-www-form-urlencoded
-  params: []
-created: 1589449413412
+  params:
+    - description: ""
+      id: pair_f34e164f843d4cdbbf1c14c4c78d014c
+      name: status
+      value: "{{ status_spam }}"
+created: 1590403600266
 description: ""
 headers:
-  - id: pair_5f0c4af47b66408ebee4eec41370568e
-    name: Authorization
-    value: "{{ apikey }}"
-  - id: pair_96bc3b0912b34dcf928d4e4a3e43e5eb
+  - id: pair_2437999544b74301a0894162be1ab97b
     name: Content-Type
     value: application/x-www-form-urlencoded
+  - description: ""
+    id: pair_c7535ad1b81040b7a404d85e99a3d527
+    name: Authorization
+    value: "{{ apikey  }}"
 isPrivate: false
-metaSortKey: -1589292099663
-method: DELETE
-modified: 1590403848141
-name: remove connect
+metaSortKey: -1589292099689.5625
+method: PUT
+modified: 1590403642985
+name: set status spam
 parameters: []
 parentId: fld_0535021ac0cf44569fa01ea37e42f4a9
 settingDisableRenderRequestBody: false

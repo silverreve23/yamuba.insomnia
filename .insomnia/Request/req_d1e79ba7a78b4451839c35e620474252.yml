@@ -1,22 +1,27 @@
-_id: req_ae768955a7df47a497ac09c1415e7de2
+_id: req_d1e79ba7a78b4451839c35e620474252
 authentication: {}
 body:
   mimeType: application/x-www-form-urlencoded
-  params: []
-created: 1589449413412
+  params:
+    - description: ""
+      id: pair_f34e164f843d4cdbbf1c14c4c78d014c
+      name: status
+      value: "{{ status_blocked }}"
+created: 1590399411291
 description: ""
 headers:
-  - id: pair_5f0c4af47b66408ebee4eec41370568e
-    name: Authorization
-    value: "{{ apikey }}"
-  - id: pair_96bc3b0912b34dcf928d4e4a3e43e5eb
+  - id: pair_2437999544b74301a0894162be1ab97b
     name: Content-Type
     value: application/x-www-form-urlencoded
+  - description: ""
+    id: pair_c7535ad1b81040b7a404d85e99a3d527
+    name: Authorization
+    value: "{{ apikey  }}"
 isPrivate: false
-metaSortKey: -1589292099663
-method: DELETE
-modified: 1590403848141
-name: remove connect
+metaSortKey: -1589292099691.125
+method: PUT
+modified: 1590399627873
+name: set status blocked
 parameters: []
 parentId: fld_0535021ac0cf44569fa01ea37e42f4a9
 settingDisableRenderRequestBody: false

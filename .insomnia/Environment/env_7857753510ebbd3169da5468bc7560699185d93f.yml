@@ -4,14 +4,14 @@ created: 1589278558974
 data:
   api: http://api.yamuba.io/api
   apikey: Bearer
-    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkueWFtdWJhLmlvXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTkwMTYyMzMxLCJleHAiOjE1OTAxNjU5MzEsIm5iZiI6MTU5MDE2MjMzMSwianRpIjoiUERyZGdmV2k4d25QaW9yRiIsInN1YiI6MTIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.4FukKEA4b3QYOCky-r3ZzPjgNGYrd90PEDhvVtXyONM
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkueWFtdWJhLmlvXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTkwNDAzNDY3LCJleHAiOjE1OTA0MDcwNjcsIm5iZiI6MTU5MDQwMzQ2NywianRpIjoiS2ZlOEFhSXE0YWxJSWRXMSIsInN1YiI6MTIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.5KhxasUmLwWxCu9Ul0X8uAmc5USSAuHbVxfrjG7Wk1k
 dataPropertyOrder:
   "&":
     - api
     - apikey
 isPrivate: false
 metaSortKey: 1589278558974
-modified: 1590162461225
+modified: 1590403483073
 name: Base Environment
 parentId: wrk_3158f999ace443b2b04b0cf94f4474e5
 type: Environment
