@@ -1,0 +1,25 @@
+_id: req_25a0bcf032cb48ba90227bfb44b4a2f5
+authentication: {}
+body: {}
+created: 1589449413405
+description: ""
+headers:
+  - disabled: false
+    id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+isPrivate: false
+metaSortKey: -1589292099838
+method: GET
+modified: 1590162682539
+name: connecting  pending
+parameters: []
+parentId: fld_e0ff51cded2648bebb943ff8d2820446
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connecting }}?status={{ status_pending }}"

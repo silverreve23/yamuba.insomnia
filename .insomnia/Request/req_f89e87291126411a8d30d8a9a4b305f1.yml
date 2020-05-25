@@ -1,0 +1,37 @@
+_id: req_f89e87291126411a8d30d8a9a4b305f1
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_cfe5d177f2b44a24b8cbf55ef36fdbb2
+      name: userID
+      value: "{{ userID }}"
+    - description: ""
+      id: pair_fa29b6ed8cbb4f8788a227a0edeb70e0
+      name: type
+      value: musician
+created: 1589897102114
+description: ""
+headers:
+  - id: pair_b12032a4ad0e4a7e94de06bc0d84a2ee
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_9f80a6c364314690a32a81ae7d1f6fa4
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099713
+method: POST
+modified: 1590074909336
+name: add musician
+parameters: []
+parentId: fld_82bf06a25d3a437090423ed9ae2e1e91
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_liking }}"

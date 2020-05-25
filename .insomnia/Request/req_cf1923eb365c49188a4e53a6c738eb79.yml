@@ -1,0 +1,33 @@
+_id: req_cf1923eb365c49188a4e53a6c738eb79
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_cfe5d177f2b44a24b8cbf55ef36fdbb2
+      name: followerID
+      value: "{{ followerID  }}"
+created: 1589791690186
+description: ""
+headers:
+  - id: pair_b12032a4ad0e4a7e94de06bc0d84a2ee
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_9f80a6c364314690a32a81ae7d1f6fa4
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099713
+method: POST
+modified: 1590152494590
+name: add to follower
+parameters: []
+parentId: fld_2eec44606220454ea37be57e4eff8ed8
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_following }}"

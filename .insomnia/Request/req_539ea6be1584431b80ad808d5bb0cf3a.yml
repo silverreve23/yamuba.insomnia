@@ -1,0 +1,34 @@
+_id: req_539ea6be1584431b80ad808d5bb0cf3a
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_f34e164f843d4cdbbf1c14c4c78d014c
+      name: status
+      value: "{{ status_approve }}"
+created: 1589292099687
+description: ""
+headers:
+  - id: pair_2437999544b74301a0894162be1ab97b
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+  - description: ""
+    id: pair_c7535ad1b81040b7a404d85e99a3d527
+    name: Authorization
+    value: "{{ apikey  }}"
+isPrivate: false
+metaSortKey: -1589292099788
+method: PUT
+modified: 1590152410255
+name: set status
+parameters: []
+parentId: fld_e0ff51cded2648bebb943ff8d2820446
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connecting }}/{{ connectID  }}"

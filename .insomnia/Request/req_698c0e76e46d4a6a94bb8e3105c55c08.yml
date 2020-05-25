@@ -1,0 +1,29 @@
+_id: req_698c0e76e46d4a6a94bb8e3105c55c08
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589897102105
+description: ""
+headers:
+  - id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_446c285b95084e6993e77d8e62d9837a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099738
+method: GET
+modified: 1589979879000
+name: all liking
+parameters: []
+parentId: fld_82bf06a25d3a437090423ed9ae2e1e91
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_liking }}"

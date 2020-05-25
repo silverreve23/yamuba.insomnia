@@ -1,0 +1,29 @@
+_id: req_5e31ae27c5d044f5b3d04d1274113c64
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589791690176
+description: ""
+headers:
+  - id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_446c285b95084e6993e77d8e62d9837a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099738
+method: GET
+modified: 1589967394195
+name: all followers
+parameters: []
+parentId: fld_2eec44606220454ea37be57e4eff8ed8
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_followers }}"

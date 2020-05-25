@@ -1,0 +1,29 @@
+_id: req_fe0745c0db464099b7dca8b9935608fc
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589791690194
+description: ""
+headers:
+  - id: pair_5f0c4af47b66408ebee4eec41370568e
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_96bc3b0912b34dcf928d4e4a3e43e5eb
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099663
+method: DELETE
+modified: 1590152506686
+name: rm from follower
+parameters: []
+parentId: fld_2eec44606220454ea37be57e4eff8ed8
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_followers }}/{{ followerID }}"

@@ -1,0 +1,29 @@
+_id: req_736166afad584e0e98ce1ef5d679f2c5
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589897102121
+description: ""
+headers:
+  - id: pair_5f0c4af47b66408ebee4eec41370568e
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_96bc3b0912b34dcf928d4e4a3e43e5eb
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099663
+method: DELETE
+modified: 1590074827342
+name: remove liking
+parameters: []
+parentId: fld_82bf06a25d3a437090423ed9ae2e1e91
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_liking }}/{{ userID }}"

@@ -1,0 +1,29 @@
+_id: req_55215b8a892e4c7bb44294314b0e17d5
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589981950009
+description: ""
+headers:
+  - id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_446c285b95084e6993e77d8e62d9837a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099735.6562
+method: GET
+modified: 1590074871893
+name: all likes musician
+parameters: []
+parentId: fld_82bf06a25d3a437090423ed9ae2e1e91
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_likes }}?type=musician"

@@ -1,0 +1,29 @@
+_id: req_5d1bfc5ae932484ba7312d4df2416631
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1590073376572
+description: ""
+headers:
+  - id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_446c285b95084e6993e77d8e62d9837a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099733.3125
+method: GET
+modified: 1590073469371
+name: following band
+parameters: []
+parentId: fld_2eec44606220454ea37be57e4eff8ed8
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_following }}?type=band"

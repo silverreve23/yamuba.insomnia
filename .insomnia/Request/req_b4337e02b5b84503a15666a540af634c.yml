@@ -1,0 +1,37 @@
+_id: req_b4337e02b5b84503a15666a540af634c
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_cfe5d177f2b44a24b8cbf55ef36fdbb2
+      name: name
+      value: test from siatik
+    - description: ""
+      id: pair_763203a2a1fd4645b2f6c936f1106dc1
+      name: order
+      value: "1"
+created: 1589892426717
+description: ""
+headers:
+  - id: pair_b12032a4ad0e4a7e94de06bc0d84a2ee
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_9f80a6c364314690a32a81ae7d1f6fa4
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099700.5
+method: PUT
+modified: 1590152451759
+name: update group
+parameters: []
+parentId: fld_8ca787c7b4e3430fa92dfe865ed7a76f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connect_group }}/51"

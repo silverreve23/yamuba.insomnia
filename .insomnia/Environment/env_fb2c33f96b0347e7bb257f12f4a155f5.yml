@@ -1,0 +1,18 @@
+_id: env_fb2c33f96b0347e7bb257f12f4a155f5
+color: "#9c0aa0"
+created: 1589791748693
+data:
+  followerID: 16
+  url_followers: /followers
+  url_following: /following
+dataPropertyOrder:
+  "&":
+    - url_followers
+    - url_following
+    - followerID
+isPrivate: false
+metaSortKey: 1589791748693
+modified: 1589963099259
+name: Followers
+parentId: env_7857753510ebbd3169da5468bc7560699185d93f
+type: Environment

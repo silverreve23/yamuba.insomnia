@@ -1,0 +1,38 @@
+_id: env_a3f3ef194aa5429e943bdacda094c6f9
+color: "#4320cd"
+created: 1589449426178
+data:
+  connectID: 16
+  filter: Kaban
+  friendID: 15
+  groupID: 1
+  order_datetime: 3
+  order_firstname: 1
+  order_lastname: 2
+  profileID: 13
+  status_approve: 1
+  status_pending: 0
+  url_connect_group: /connects/group
+  url_connecting: /connecting
+  url_connects: /connects
+dataPropertyOrder:
+  "&":
+    - url_connects
+    - url_connecting
+    - url_connect_group
+    - filter
+    - connectID
+    - friendID
+    - groupID
+    - profileID
+    - status_approve
+    - status_pending
+    - order_firstname
+    - order_lastname
+    - order_datetime
+isPrivate: false
+metaSortKey: 1589449426178
+modified: 1590080129820
+name: Connects
+parentId: env_7857753510ebbd3169da5468bc7560699185d93f
+type: Environment

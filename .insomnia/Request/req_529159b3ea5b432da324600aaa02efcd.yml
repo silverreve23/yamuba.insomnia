@@ -1,0 +1,29 @@
+_id: req_529159b3ea5b432da324600aaa02efcd
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589889844575
+description: ""
+headers:
+  - id: pair_5f0c4af47b66408ebee4eec41370568e
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_96bc3b0912b34dcf928d4e4a3e43e5eb
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099613
+method: DELETE
+modified: 1590152479374
+name: untie from group
+parameters: []
+parentId: fld_8ca787c7b4e3430fa92dfe865ed7a76f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connect_group }}/{{ groupID  }}/connects/15"

@@ -1,0 +1,33 @@
+_id: req_6597b0d59302475b8d200a8b07837d9e
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - description: ""
+      id: pair_cfe5d177f2b44a24b8cbf55ef36fdbb2
+      name: userID
+      value: "{{ friendID  }}"
+created: 1589886683023
+description: ""
+headers:
+  - id: pair_b12032a4ad0e4a7e94de06bc0d84a2ee
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_9f80a6c364314690a32a81ae7d1f6fa4
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099688
+method: POST
+modified: 1590152471255
+name: append to group
+parameters: []
+parentId: fld_8ca787c7b4e3430fa92dfe865ed7a76f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connect_group }}/6/connects"

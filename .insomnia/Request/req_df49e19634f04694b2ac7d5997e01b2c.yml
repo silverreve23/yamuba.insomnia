@@ -1,0 +1,29 @@
+_id: req_df49e19634f04694b2ac7d5997e01b2c
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+created: 1589875517802
+description: ""
+headers:
+  - id: pair_e50824d427fa4c7898837166e0fa95a1
+    name: Authorization
+    value: "{{ apikey }}"
+  - id: pair_446c285b95084e6993e77d8e62d9837a
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+isPrivate: false
+metaSortKey: -1589292099738
+method: GET
+modified: 1590152442174
+name: list all groups
+parameters: []
+parentId: fld_8ca787c7b4e3430fa92dfe865ed7a76f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ api  }}{{ url_connect_group }}?profileID={{ profileID  }}"
